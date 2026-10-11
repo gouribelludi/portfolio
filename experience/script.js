@@ -53,7 +53,7 @@ document.onkeydown = function(e) {
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Experience | Portfolio XYZ";
+        document.title = "Experience | Gouri Belludi";
         $("#favicon").attr("href","/assests/images/profile.jpg");
     }
     else {

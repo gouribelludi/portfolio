@@ -1,44 +1,42 @@
-[ 
-    
-    
-    {
-        "id": 1,
-        "name": "Project Name",
-        "desc": "Small Description",
-        "image": "/assests/images/lapy.jpg",
-        "links": {
-            "view": "#",
-            "code": "#"
-        }
-    },
-    {
-        "id": 1,
-        "name": "Project Name",
-        "desc": "Small Description",
-        "image": "/assests/images/ero.gif",
-        "links": {
-            "view": "#",
-            "code": "#"
-        }
-    },
-    {
-        "id": 1,
-        "name": "Project Name",
-        "desc": "Small Description",
-        "image": "/assests/images/hero.gif",
-        "links": {
-            "view": "#",
-            "code": "#"
-        }
-    },
-    {
-        "id": 1,
-        "name": "Project Name",
-        "desc": "Small Description",
-        "image": "/assests/images/loader.gif",
-        "links": {
-            "view": "#",
-            "code": "#"
-        }
+[
+  {
+    "id": 1,
+    "name": "NeuroPain Care AI",
+    "desc": "An AI-powered pain care assistant with interactive 3D body mapping, pain assessments, personalized non-pharmacological care plans, pain history analysis, and a conversational chatbot.",
+    "image": "/assests/images/profile.jpg",
+    "technologies": ["React", "Spring Boot", "MySQL", "Google Gemini"],
+    "links": {
+      "code": "https://github.com/gouribelludi/mini_project2"
     }
+  },
+  {
+    "id": 2,
+    "name": "QuickCrave",
+    "desc": "An online food delivery management system with restaurant, menu, cart, and order APIs. Includes JWT authentication and role-based access for customers, restaurant owners, and administrators.",
+    "image": "/assests/images/projects/QuickCrave.jpeg",
+    "technologies": ["React", "Java", "Spring Boot", "MySQL", "JWT"],
+    "links": {
+      "code": "https://github.com/gouribelludi/Food_Delivery"
+    }
+  },
+  {
+    "id": 3,
+    "name": "React Agency AI",
+    "desc": "A React and Vite project for an AI agency. The repository includes a Vite development setup, React Fast Refresh, and ESLint configuration.",
+    "image": "/assests/images/react.png",
+    "technologies": ["React", "Vite", "JavaScript", "ESLint"],
+    "links": {
+      "code": "https://github.com/gouribelludi/React_Agency.AI"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Tourist Safety Monitoring",
+    "desc": "A tourist safety web app with GPS tracking, live location monitoring, emergency route planning, and nearby police and medical facility search on interactive maps.",
+    "image": "/assests/images/lapy.jpg",
+    "technologies": ["HTML", "CSS", "JavaScript", "Node.js", "Express", "Leaflet", "OSRM"],
+    "links": {
+      "code": "https://github.com/gouribelludi/Tourist-Safety-Monitoring"
+    }
+  }
 ]

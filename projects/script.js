@@ -20,7 +20,7 @@ $(document).ready(function(){
 document.addEventListener('visibilitychange',
 function(){
     if(document.visibilityState === "visible"){
-        document.title = "Projects | Portfolio XYZ";
+        document.title = "Projects | Gouri Belludi";
         $("#favicon").attr("href","/assests/images/profile.jpg");
     }
     else {
@@ -46,16 +46,18 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="box tilt">
-      <img draggable="false" src="${project.image}" alt="" />
+      <img draggable="false" src="${project.image}" alt="${project.name} project preview" />
       <div class="content">
         <div class="tag">
         <h3>${project.name}</h3>
         </div>
         <div class="desc">
           <p>${project.desc}</p>
+          <div class="tech-stack">
+            ${(project.technologies || []).map(technology => `<span>${technology}</span>`).join("")}
+          </div>
           <div class="btns">
-            <a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>
-            <a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>
+            <a href="${project.links.code}" class="btn" target="_blank" rel="noopener noreferrer"><i class="fas fa-code"></i> Code</a>
           </div>
         </div>
       </div>
